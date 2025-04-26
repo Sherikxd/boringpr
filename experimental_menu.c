@@ -15,7 +15,7 @@ void experimental_menu()
     char command[100];
     while (1)
     {
-        printf("Enter command (testing, exit): ");
+        printf("Enter command (testing,snake, exit)\n >>> ");
         scanf("%s", command);
 
         if (strcmp(command, "exit") == 0)
