@@ -7,7 +7,7 @@ Comandos o funcionalidades :D
 #include "mult_div_unit.h"
 #include "functions_unit.h"
 #include "gcd_lcm_unit.h"
-#include "permute_unit.c"
+#include "permute_unit.h"
 #include "io.h"
 #include "prob_unit.h"
 #include "experimental_menu.h"

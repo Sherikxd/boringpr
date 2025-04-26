@@ -3,6 +3,7 @@
  *Comandos exprimentales... :p
  **/
 #include "testing_unit.h"
+#include "exp_libs/snake_unit.h"
 /*
  * Librerias Usadas
  */
@@ -24,6 +25,10 @@ void experimental_menu()
         else if (strcmp(command, "testing") == 0)
         {
             testing_unit();
+        }
+        else if (strcmp(command, "snake") == 0)
+        {
+            snake_unit();
         }
         else
         {
