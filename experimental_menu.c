@@ -4,6 +4,7 @@
  **/
 #include "testing_unit.h"
 #include "exp_libs/snake_unit.h"
+#include "exp_libs/net.unit.h"
 /*
  * Librerias Usadas
  */
@@ -15,7 +16,7 @@ void experimental_menu()
     char command[100];
     while (1)
     {
-        printf("Enter command (testing,snake, exit)\n >>> ");
+        printf("Enter command (testing,snake,net , exit)\n >>> ");
         scanf("%s", command);
 
         if (strcmp(command, "exit") == 0)
@@ -25,6 +26,9 @@ void experimental_menu()
         else if (strcmp(command, "testing") == 0)
         {
             testing_unit();
+        }
+        else if (strcmp(command, "net") == 0) {
+            net_unit();
         }
         else if (strcmp(command, "snake") == 0)
         {
